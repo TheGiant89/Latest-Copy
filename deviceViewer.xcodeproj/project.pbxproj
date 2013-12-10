@@ -22,6 +22,10 @@
 		6210A1001832DA29008CE567 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6210A0E41832DA29008CE567 /* CoreData.framework */; };
 		6210A1081832DA29008CE567 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6210A1061832DA29008CE567 /* InfoPlist.strings */; };
 		6210A10A1832DA29008CE567 /* deviceViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6210A1091832DA29008CE567 /* deviceViewerTests.m */; };
+		6210A1141832DA4F008CE567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6210A1131832DA4F008CE567 /* Main.storyboard */; };
+		6210A1171832DA7B008CE567 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6210A1161832DA7B008CE567 /* MainViewController.m */; };
+		6210A11A1832DFFB008CE567 /* addDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6210A1191832DFFB008CE567 /* addDevice.m */; };
+		6297F08918399A2F0037953D /* viewDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6297F08818399A2F0037953D /* viewDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620C7ED8183C4BC2003CA3CF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		6210A0DB1832DA29008CE567 /* deviceViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deviceViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6210A0DE1832DA29008CE567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6210A0E01832DA29008CE567 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,13 @@
 		6210A1051832DA29008CE567 /* deviceViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "deviceViewerTests-Info.plist"; sourceTree = "<group>"; };
 		6210A1071832DA29008CE567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6210A1091832DA29008CE567 /* deviceViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deviceViewerTests.m; sourceTree = "<group>"; };
+		6210A1131832DA4F008CE567 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		6210A1151832DA7B008CE567 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		6210A1161832DA7B008CE567 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		6210A1181832DFFB008CE567 /* addDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addDevice.h; sourceTree = "<group>"; };
+		6210A1191832DFFB008CE567 /* addDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addDevice.m; sourceTree = "<group>"; };
+		6297F08718399A2F0037953D /* viewDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewDevice.h; sourceTree = "<group>"; };
+		6297F08818399A2F0037953D /* viewDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewDevice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,7 @@
 		6210A0DD1832DA29008CE567 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				620C7ED8183C4BC2003CA3CF /* MobileCoreServices.framework */,
 				6210A0DE1832DA29008CE567 /* Foundation.framework */,
 				6210A0E01832DA29008CE567 /* CoreGraphics.framework */,
 				6210A0E21832DA29008CE567 /* UIKit.framework */,
@@ -117,6 +130,13 @@
 			children = (
 				6210A0EF1832DA29008CE567 /* MEBAppDelegate.h */,
 				6210A0F01832DA29008CE567 /* MEBAppDelegate.m */,
+				6210A1131832DA4F008CE567 /* Main.storyboard */,
+				6210A1181832DFFB008CE567 /* addDevice.h */,
+				6210A1191832DFFB008CE567 /* addDevice.m */,
+				6210A1151832DA7B008CE567 /* MainViewController.h */,
+				6210A1161832DA7B008CE567 /* MainViewController.m */,
+				6297F08718399A2F0037953D /* viewDevice.h */,
+				6297F08818399A2F0037953D /* viewDevice.m */,
 				6210A0F51832DA29008CE567 /* Images.xcassets */,
 				6210A0F21832DA29008CE567 /* deviceViewer.xcdatamodeld */,
 				6210A0E71832DA29008CE567 /* Supporting Files */,
@@ -229,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6210A1141832DA4F008CE567 /* Main.storyboard in Resources */,
 				6210A0EB1832DA29008CE567 /* InfoPlist.strings in Resources */,
 				6210A0F61832DA29008CE567 /* Images.xcassets in Resources */,
 			);
@@ -252,6 +273,9 @@
 				6210A0ED1832DA29008CE567 /* main.m in Sources */,
 				6210A0F11832DA29008CE567 /* MEBAppDelegate.m in Sources */,
 				6210A0F41832DA29008CE567 /* deviceViewer.xcdatamodeld in Sources */,
+				6210A1171832DA7B008CE567 /* MainViewController.m in Sources */,
+				6297F08918399A2F0037953D /* viewDevice.m in Sources */,
+				6210A11A1832DFFB008CE567 /* addDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "deviceViewer/deviceViewer-Prefix.pch";
 				INFOPLIST_FILE = "deviceViewer/deviceViewer-Info.plist";
@@ -383,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "deviceViewer/deviceViewer-Prefix.pch";
 				INFOPLIST_FILE = "deviceViewer/deviceViewer-Info.plist";
@@ -452,6 +478,7 @@
 				6210A10F1832DA29008CE567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6210A1101832DA29008CE567 /* Build configuration list for PBXNativeTarget "deviceViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +487,7 @@
 				6210A1121832DA29008CE567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
